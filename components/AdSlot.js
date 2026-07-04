@@ -6,3 +6,4 @@ export default function AdSlot({ type = "in-content", label }) {
   };
   return <div className={`ad-slot ${type}`}>Advertisement — {label || sizes[type]}</div>;
 }
+
