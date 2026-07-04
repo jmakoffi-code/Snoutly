@@ -1,17 +1,17 @@
-import "./globals.css";
+ï»¿import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata = {
   metadataBase: new URL("https://snoutlypet.com"),
   title: {
-    default: "Snoutly — A Field Guide to Pet Care",
-    template: "%s — Snoutly",
+    default: "Snoutly - A Field Guide to Pet Care",
+    template: "%s - Snoutly",
   },
   description:
     "Clear, tested, step-by-step guides for dogs, cats, and small pets. Snoutly is a field guide to everyday pet care.",
   openGraph: {
-    title: "Snoutly — A Field Guide to Pet Care",
+    title: "Snoutly - A Field Guide to Pet Care",
     description:
       "Clear, tested, step-by-step guides for dogs, cats, and small pets.",
     url: "https://snoutlypet.com",
@@ -20,7 +20,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary",
-    title: "Snoutly — A Field Guide to Pet Care",
+    title: "Snoutly - A Field Guide to Pet Care",
     description:
       "Clear, tested, step-by-step guides for dogs, cats, and small pets.",
   },
