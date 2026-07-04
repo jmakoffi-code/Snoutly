@@ -271,7 +271,7 @@ img { max-width: 100%; display: block; }
 }
 
 @media (min-width: 860px) {
-  .hero-card { padding: 28px; transform: rotate(1deg); }
+  .hero-card { padding: 28px; }
 }
 .hero-card::before {
   content: "FIELD NOTE";
