@@ -4,12 +4,12 @@ const SITE_URL = "https://nuzzlekeep.com";
 
 export default function ShareBar({ slug, title, excerpt }) {
   const url = `${SITE_URL}/article/${slug}`;
-  const image = `${url}/opengraph-image`;
+  const pinImage = `${url}/pinterest-image`;
 
   const encodedUrl = encodeURIComponent(url);
   const encodedTitle = encodeURIComponent(title);
   const encodedExcerpt = encodeURIComponent(excerpt || "");
-  const encodedImage = encodeURIComponent(image);
+  const encodedImage = encodeURIComponent(pinImage);
 
   const links = [
     {
